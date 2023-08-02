@@ -1,0 +1,45 @@
+{
+  "name": "azi-check-update",
+  "version": "0.1.0",
+  "description": "check if a website is update available",
+  "entry": "src/index.ts",
+  "type": "module",
+  "main": "dist/index.js",
+  "browser": "dist/index.js",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "homepage": "https://github.com/azixf",
+  "files": [
+    "dist",
+    "LICENSE",
+    "README.md"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsup"
+  },
+  "keywords": [
+    "update",
+    "web",
+    "single-page",
+    "vue",
+    "react",
+    "ts"
+  ],
+  "author": {
+    "name": "azixf",
+    "email": "azi0427@163.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/azixf/azi-check-update.git"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "tsup": "^7.1.0",
+    "typescript": "^5.1.6"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  }
+}
